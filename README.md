@@ -11,9 +11,9 @@ Install
 NGINX Unit
 ----------
 >See documentation at: http://unit.nginx.org
-1. **start:** unitd
-2. **verify:** ps aux | grep nginx
-3. **stop:** pkill unitd
+* **start:** unitd
+* **verify:** ps aux | grep nginx
+* **stop:** pkill unitd
 
 Deploy
 ------
