@@ -1,0 +1,19 @@
+{
+  "applications": {
+    "now": {
+      "type": "external",
+      "working_directory": "$home/.now",
+      "executable": "/usr/local/bin/now",
+      "processes": 1,
+      "limits": {
+        "timeout": 1
+      }
+    }
+  },
+
+  "listeners": {
+    "*:7474": {
+      "pass": "applications/now"
+    }
+  }
+}
