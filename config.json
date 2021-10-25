@@ -10,7 +10,6 @@
       }
     }
   },
-
   "listeners": {
     "*:7474": {
       "pass": "applications/now"
