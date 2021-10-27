@@ -22,13 +22,9 @@ Deploy
 2. mv target/scala-2.13/scala-native-nginx-out target/scala-2.13/now
 3. sudo cp target/scala-2.13/now /usr/local/bin
 4. unitd
-5. Run 1) curl command or 2) shell script:
-   1. curl -X PUT --verbose --data-binary @config \
-     --unix-socket /opt/homebrew/var/run/unit/control.sock \
-     http://localhost/config
-   2. ./now.sh  ( chmod 755 now.sh )
-7. curl http://localhost:7474/now
-8. pkill unitd
+5. ./now.sh  ( chmod 755 now.sh )
+6. curl http://localhost:7474/now
+7. pkill unitd
 
 Test
 ----
