@@ -25,6 +25,7 @@ Deploy
 5. ./deploy.sh  ( chmod 755 deploy.sh )
 6. curl http://localhost:7474/now
 7. pkill unitd
+>**WARNING** Nginx Unit configuration is unreliable. The above process worked well **once**, and then never again.
 
 Test
 ----
