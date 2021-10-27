@@ -1,5 +1,5 @@
 #!/bin/bash
 
-curl -X PUT --verbose --data-binary @config.json \
+curl -X PUT --verbose --data-binary @config \
    --unix-socket /opt/homebrew/var/run/unit/control.sock \
    http://localhost/config
