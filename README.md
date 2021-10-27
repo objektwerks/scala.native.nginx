@@ -12,7 +12,7 @@ NGINX Unit
 ----------
 >See documentation at: http://unit.nginx.org
 * **start:** unitd
-* **verify:** ps aux | grep nginx
+* **verify:** ps aux | grep unitd
 * **stop:** pkill unitd
 
 Deploy
