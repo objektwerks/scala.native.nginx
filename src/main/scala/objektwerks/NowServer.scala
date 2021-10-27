@@ -16,7 +16,7 @@ object NowServer {
           .withRoute(route) { case (request, _) =>
             request.send(
               statusCode = StatusCode.OK,
-              content = Instant.now().toString,
+              content = s"*** Now: ${Instant.now().toString}",
               headers = Seq("Content-Type" -> "text/plain")
             )
           }
