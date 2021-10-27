@@ -7,12 +7,8 @@
   "applications": {
     "now": {
       "type": "external",
-      "working_directory": "~/.now",
       "executable": "/usr/local/bin/now",
-      "processes": 1,
-      "limits": {
-        "timeout": 1
-      }
+      "working_directory": "~/.now"
     }
   }
 }
