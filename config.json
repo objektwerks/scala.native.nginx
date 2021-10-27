@@ -7,7 +7,8 @@
   "applications": {
     "now": {
       "type": "external",
-      "executable": "/usr/local/bin/now"
+      "executable": "/usr/local/bin/now",
+      "working_directory": "/opt/homebrew/var/run/unit"
     }
   }
 }
