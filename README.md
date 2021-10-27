@@ -24,7 +24,7 @@ Deploy
 4. unitd
 5. Run curl command or shell script:
    * curl -X PUT --data-binary @config.json \
-     --unix-socket /opt/homebrew/var/run/unit/control.sock \
+     --unix-socket unix:/opt/homebrew/var/run/unit/control.sock \
      http://localhost/config
    * chmod 755 now.sh
    * ./now.sh
