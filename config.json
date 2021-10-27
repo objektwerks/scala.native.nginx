@@ -1,6 +1,6 @@
 {
   "listeners": {
-    "*:7474": {
+    "127.0.0.1:7474": {
       "pass": "applications/now"
     }
   },
