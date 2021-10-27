@@ -7,8 +7,7 @@
   "applications": {
     "now": {
       "type": "external",
-      "executable": "/usr/local/bin/now",
-      "working_directory": "~/.now"
+      "executable": "/usr/local/bin/now"
     }
   }
 }
