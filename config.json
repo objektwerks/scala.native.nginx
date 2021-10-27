@@ -1,18 +1,18 @@
 {
+  "listeners": {
+    "*:7474": {
+      "pass": "applications/now"
+    }
+  },
   "applications": {
     "now": {
       "type": "external",
-      "working_directory": "$home/.now",
+      "working_directory": "~/.now",
       "executable": "/usr/local/bin/now",
       "processes": 1,
       "limits": {
         "timeout": 1
       }
-    }
-  },
-  "listeners": {
-    "*:7474": {
-      "pass": "applications/now"
     }
   }
 }
