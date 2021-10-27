@@ -24,7 +24,7 @@ Deploy
 4. unitd
 5. curl -X PUT --data-binary @config.json \
    --unix-socket /opt/homebrew/var/run/unit/control.sock \
-   http://localhost/config/applications/now
+   http://localhost/config
 6. curl http://localhost:7474/now
 7. pkill unitd
 
