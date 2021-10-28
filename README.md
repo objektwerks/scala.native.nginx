@@ -27,6 +27,7 @@ Deploy
 7. pkill unitd
 >**WARNING** Nginx Unit configuration and deployment is unreliable. The above process worked well **once**,
 >and then never again at step 5. Research by the SNUnit founder indicates a possible issue with the M1 chip.
+>Improved versions of Scala Native, SNUnit and NUnit should help to resolve this issue.
 
 Test
 ----
