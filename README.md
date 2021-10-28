@@ -25,8 +25,8 @@ Deploy
 5. ./deploy.sh  ( chmod 755 deploy.sh )
 6. curl http://localhost:7474/now
 7. pkill unitd
->**WARNING** Nginx Unit configuration is unreliable. The above process worked well **once**,
->and then never again at step 5.
+>**WARNING** Nginx Unit configuration and deployment is unreliable. The above process worked well **once**,
+>and then never again at step 5. Research by the SNUnit founder indicates a possible issue with the M1 chip.
 
 Test
 ----
