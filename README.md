@@ -10,14 +10,14 @@ Install
 
 NGINX Unit
 ----------
->See documentation at: http://unit.nginx.org
+>See docs at: 1) https://github.com/lolgab/snunit and 2) http://unit.nginx.org
 * **start:** unitd --no-daemon --log /dev/stdout --control unix:control.sock
 * **verify:** ps ax | grep unitd
 * **stop:** Ctrl-C
 
 Deploy
 ------
->Deploy to local nginx unit server:
+>Deploy to/run on local nginx unit server:
 1. sbt clean compile nativeLink
 2. mv target/scala-2.13/scala-native-nginx-out target/scala-2.13/now
 3. sudo cp target/scala-2.13/now /usr/local/bin
@@ -36,3 +36,5 @@ Resources
 ---------
 1. Scala Native Docs - http://www.scala-native.org/en/latest/index.html
 2. Scala Native Intro Video - https://www.youtube.com/watch?v=u2CnE-sRdBw
+3. NUnit - http://unit.nginx.org
+4. SNUnit - https://github.com/lolgab/snunit
