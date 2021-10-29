@@ -1,14 +1,13 @@
 {
   "listeners": {
-    "127.0.0.1:7474": {
+    "*:7474": {
       "pass": "applications/now"
     }
   },
   "applications": {
     "now": {
       "type": "external",
-      "executable": "/usr/local/bin/now",
-      "working_directory": "/opt/homebrew/var/run/unit"
+      "executable": "/usr/local/bin/now"
     }
   }
 }
