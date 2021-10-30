@@ -1,5 +1,7 @@
 .*
 !.gitignore
+control.sock
+nohup.out
 project/metals.sbt
 project/project/
 project/target/
