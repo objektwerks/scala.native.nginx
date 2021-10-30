@@ -11,7 +11,7 @@ Install
 NGINX Unit
 ----------
 >See docs at: 1) https://github.com/lolgab/snunit and 2) http://unit.nginx.org
-* **start:** unitd --no-daemon --log /dev/stdout --control unix:control.sock
+* **start:** nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 * **verify:** ps ax | grep unitd
 * **stop:** Ctrl-C
 
@@ -21,16 +21,16 @@ Deploy
 1. sbt clean compile nativeLink
 2. mv target/scala-2.13/scala-native-nginx-out target/scala-2.13/now
 3. sudo cp target/scala-2.13/now /usr/local/bin
-4. unitd
+4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 5. ./deploy.sh  ( chmod 755 deploy.sh )
 6. curl http://localhost:7474/now
-7. Ctrl-C
+7. kill -9 pid ( rm control.sock nohup.out )
 
 Test
 ----
-1. unitd --no-daemon --log /dev/stdout --control unix:control.sock
+1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 2. curl http://localhost:7474/now
-3. Ctrl-C
+3. kill -9 pid ( rm control.sock nohup.out )
 
 Resources
 ---------
