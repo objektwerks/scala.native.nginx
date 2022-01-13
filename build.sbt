@@ -12,7 +12,7 @@ libraryDependencies ++= {
     "com.github.lolgab" %%% "snunit" % snunitVersion,
     "com.github.lolgab" %%% "snunit-async" % snunitVersion,
     "com.github.lolgab" %%% "snunit-routes" % snunitVersion,
-    "org.ekrich" %%% "sjavatime" % "1.1.5",
+    "org.ekrich" %%% "sjavatime" % "1.1.6",
     "org.scalatest" %%% "scalatest" % "3.2.10" % Test
   )
 }
