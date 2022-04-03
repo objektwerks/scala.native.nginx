@@ -13,7 +13,7 @@ libraryDependencies ++= {
     "com.github.lolgab" %%% "snunit-async" % snunitVersion,
     "com.github.lolgab" %%% "snunit-routes" % snunitVersion,
     "org.ekrich" %%% "sjavatime" % "1.1.8",
-    "org.scalatest" %%% "scalatest" % "3.2.10" % Test
+    "org.scalatest" %%% "scalatest" % "3.2.11" % Test
   )
 }
 nativeLinkStubs := true
