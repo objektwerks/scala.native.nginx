@@ -5,7 +5,7 @@ enablePlugins(ScalaNativePlugin)
 name := "scala.native.nginx"
 organization := "objektwerks"
 version := "0.1-SNAPSHOT"
-scalaVersion := "3.2.0-RC2"
+scalaVersion := "3.2.0-RC3"
 libraryDependencies ++= {
   val snunitVersion = "0.0.22"
   Seq(
