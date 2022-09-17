@@ -7,7 +7,7 @@ organization := "objektwerks"
 version := "0.1-SNAPSHOT"
 scalaVersion := "3.2.1-RC2"
 libraryDependencies ++= {
-  val snunitVersion = "0.0.22"
+  val snunitVersion = "0.0.24"
   Seq(
     "com.github.lolgab" %%% "snunit" % snunitVersion,
     "com.github.lolgab" %%% "snunit-async" % snunitVersion,
