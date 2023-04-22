@@ -7,8 +7,8 @@ import snunit.routes.*
 
 import trail.*
 
-object NowServer {
-  def main(args: Array[String]): Unit = {
+object NowServer:
+  def main(args: Array[String]): Unit =
     val route  = Root / "now"
     AsyncServerBuilder()
       .withRequestHandler(
@@ -23,5 +23,3 @@ object NowServer {
       )
       .build()
     ()
-  }
-}
