@@ -10,7 +10,7 @@ import trail.*
 object NowServer {
   def main(args: Array[String]): Unit = {
     val route  = Root / "now"
-    AsyncServerBuilder()
+    AsyncServerBuilder
       .withRequestHandler(
         _.withMethod(Method.GET)
           .withRoute(route) { case (request, _) =>
