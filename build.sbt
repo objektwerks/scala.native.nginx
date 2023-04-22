@@ -10,7 +10,7 @@ libraryDependencies ++= {
   Seq(
     "com.github.lolgab" %%% "snunit" % "0.5.1",
     "com.github.lolgab" %%% "snunit-async" % "0.1.1",
-    "com.github.lolgab" %%% "snunit-routes" % "0.0.25",
+    "com.github.lolgab" %%% "snunit-routes" % "0.0.25", // Download fails, even with (...).cross(CrossVersion.for3Use2_13)
     "org.ekrich" %%% "sjavatime" % "1.1.9",
     "org.scalatest" %%% "scalatest" % "3.2.15" % Test
   )
