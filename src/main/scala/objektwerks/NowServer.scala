@@ -2,10 +2,10 @@ package objektwerks
 
 import java.time.Instant
 
-import snunit._
-import snunit.routes._
+import snunit.*
+import snunit.routes.*
 
-import trail._
+import trail.*
 
 object NowServer {
   def main(args: Array[String]): Unit = {
