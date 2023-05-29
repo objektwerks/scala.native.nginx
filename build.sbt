@@ -5,7 +5,7 @@ enablePlugins(ScalaNativePlugin)
 name := "scala.native.nginx"
 organization := "objektwerks"
 version := "0.1-SNAPSHOT"
-scalaVersion := "3.3.0-RC6"
+scalaVersion := "3.3.0"
 libraryDependencies ++= {
   Seq(
     "com.github.lolgab" %%% "snunit" % "0.5.1",
