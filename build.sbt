@@ -12,7 +12,7 @@ libraryDependencies ++= {
     "com.github.lolgab" %%% "snunit-async" % "0.1.1",
     ("com.github.lolgab" %%% "snunit-routes" % "0.0.25").cross(CrossVersion.for3Use2_13), // Download fails
     "org.ekrich" %%% "sjavatime" % "1.1.9",
-    "org.scalatest" %%% "scalatest" % "3.2.15" % Test
+    "org.scalatest" %%% "scalatest" % "3.2.16" % Test
   )
 }
 scalacOptions ++= Seq(
