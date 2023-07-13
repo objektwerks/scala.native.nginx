@@ -8,7 +8,7 @@ version := "0.1-SNAPSHOT"
 scalaVersion := "3.3.1-RC4"
 libraryDependencies ++= {
   Seq(
-    "com.github.lolgab" %%% "snunit" % "0.5.1",
+    "com.github.lolgab" %%% "snunit" % "0.7.1",
     "com.github.lolgab" %%% "snunit-async" % "0.1.1",
     ("com.github.lolgab" %%% "snunit-routes" % "0.0.25").cross(CrossVersion.for3Use2_13), // Download fails
     "org.ekrich" %%% "sjavatime" % "1.1.9",
