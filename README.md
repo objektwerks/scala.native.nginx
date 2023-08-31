@@ -10,12 +10,13 @@ Install
 
 NGINX Unit
 ----------
->See docs at:
+>Docs:
 1. [SNunit](https://github.com/lolgab/snunit)
 2. [Nginx](http://unit.nginx.org)
-* **start:** nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
-* **verify:** ps ax | grep unitd
-* **stop:** Ctrl-C
+>Usage:
+1. **start:** nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
+2. **verify:** ps ax | grep unitd
+3. **stop:** Ctrl-C
 
 Deploy
 ------
