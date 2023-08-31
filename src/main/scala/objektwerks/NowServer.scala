@@ -2,7 +2,7 @@ package objektwerks
 
 import java.time.Instant
 
-import snunit.{AsyncServerBuilder, StatusCode}
+import snunit.{AsyncServerBuilder, Headers, StatusCode}
 
 object NowServer:
   def main(args: Array[String]): Unit =
@@ -11,7 +11,7 @@ object NowServer:
         request.send(
           statusCode = StatusCode.OK,
           content = s"*** Now: ${Instant.now().toString}",
-          headers = Seq("Content-Type" -> "text/plain")
+          headers = Headers("Content-Type" -> "text/plain")
         )
       )
       .build()
