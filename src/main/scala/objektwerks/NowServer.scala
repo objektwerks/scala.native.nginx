@@ -2,7 +2,7 @@ package objektwerks
 
 import java.time.Instant
 
-import snunit.*
+import snunit.{AsyncServerBuilder, StatusCode}
 
 object NowServer:
   def main(args: Array[String]): Unit =
