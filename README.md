@@ -1,6 +1,6 @@
 Scala Native NGINX
 ------------------
->Scala native nginx unit app built on Apple M1.
+>Scala native nginx unit app built on Apple M1 using Scala 3.
 
 Install
 -------
@@ -19,8 +19,8 @@ Deploy
 ------
 >Deploy to/run on local nginx unit server:
 1. sbt clean compile nativeLink
-2. mv target/scala-3.3.0/scala-native-nginx-out target/scala-3.3.0/now
-3. sudo cp target/scala-3.3.0/now /usr/local/bin
+2. mv target/scala-3.3.1-RC6/scala-native-nginx-out target/scala-3.3.0/now
+3. sudo cp target/scala-3.3.1-RC6/now /usr/local/bin
 4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 5. ./deploy.sh  ( chmod 755 deploy.sh )
 6. curl http://localhost:7474/now
