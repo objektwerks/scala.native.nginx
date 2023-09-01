@@ -26,7 +26,7 @@ Deploy
 3. sudo cp target/scala-3.3.1-RC6/now /usr/local/bin
 4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 5. ./deploy.sh  ( chmod 755 deploy.sh )
-6. curl http://localhost:7474/now
+6. curl http://localhost:7474/
 7. kill -9 pid ( rm control.sock nohup.out )
 
 Test
