@@ -29,6 +29,7 @@ Enter number: 2
 3. sudo cp target/scala-3.3.1-RC6/now-server /usr/local/bin
 4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock & (***start nginx unit, if stopped***)
 5. ./deploy.sh  ( chmod 755 deploy.sh )
+>See **config.json** for Nginx Unit / NowServer configuration.
 
 Build and Install NowClient
 ---------------------------
