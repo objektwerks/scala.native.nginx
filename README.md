@@ -47,7 +47,7 @@ Enter number: 1
 NowClient Test
 --------------
 1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock & (***start nginx unit, if stopped***)
-2. now-client [ url ] ( the default NowServer url is: http://localhost:7474/ )
+2. now-client [ url ] ( ***the default NowServer url is:*** http://localhost:7474/ )
 
 Curl Test
 ---------
