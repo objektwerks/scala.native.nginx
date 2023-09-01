@@ -8,6 +8,6 @@ object NowClient:
   def main(args: Array[String]): Unit =
     val backend = CurlBackend()
     val response: Response[String] = quickRequest
-      .get(uri"http://localhost:7474")
+      .get(uri"http://localhost:7474/")
       .send(backend)
     println( s"*** Now Client response: ${response.body}" )
