@@ -1,12 +1,13 @@
 Scala Native Nginx
 ------------------
->Scala native nginx unit server and client built on Apple M1 using Scala 3.
+>Scala native nginx unit server and client built on **Apple M1** using Scala 3.
 
 Install
 -------
 >See http://www.scala-native.org/en/latest/user/setup.html for details.
 1. brew install llvm
-2. brew install nginx/unit/unit
+2. brew install bdw-gc
+3. brew install nginx/unit/unit
 
 Start and Stop Nginx
 --------------------
