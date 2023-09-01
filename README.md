@@ -15,8 +15,8 @@ Start and Stop Nginx
 2. **verify:** ps ax | grep unitd
 3. **stop:** Ctrl-C
 
-Build and Deploy
-----------------
+Build and Deploy NowServer
+--------------------------
 >Build and deploy NowServer to/run on local nginx unit server:
 1. sbt clean compile nativeLink
 ```
