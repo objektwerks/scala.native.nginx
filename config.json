@@ -1,13 +1,13 @@
 {
   "listeners": {
     "*:7474": {
-      "pass": "applications/now"
+      "pass": "applications/now-server"
     }
   },
   "applications": {
     "now": {
       "type": "external",
-      "executable": "/usr/local/bin/now"
+      "executable": "/usr/local/bin/now-server"
     }
   }
 }
