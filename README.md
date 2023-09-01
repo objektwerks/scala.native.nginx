@@ -31,6 +31,19 @@ Enter number: 2
 4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 5. ./deploy.sh  ( chmod 755 deploy.sh )
 
+Build and Deploy NowClient
+--------------------------
+1. sbt clean compile nativeLink
+```
+Multiple main classes detected. Select one to run:
+ [1] objektwerks.NowClient
+ [2] objektwerks.NowServer
+
+Enter number: 1
+```
+2. mv target/scala-3.3.1-RC6/scala-native-nginx-out target/scala-3.3.1-RC6/now-client
+3. sudo cp target/scala-3.3.1-RC6/now-client /usr/local/bin
+
 Curl Test
 ---------
 1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
