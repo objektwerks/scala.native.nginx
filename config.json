@@ -5,7 +5,7 @@
     }
   },
   "applications": {
-    "now": {
+    "now-server": {
       "type": "external",
       "executable": "/usr/local/bin/now-server"
     }
