@@ -10,5 +10,4 @@ object NowClient:
     val response: Response[String] = quickRequest
       .get(uri"http://localhost:7474")
       .send(backend)
-
-    println(response.body)
+    println( s"*** Now Client response: ${response.body}" )
