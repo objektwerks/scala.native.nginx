@@ -2,11 +2,11 @@ package objektwerks
 
 import java.time.Instant
 
-import snunit.{AsyncServerBuilder, Headers, send, StatusCode}
+import snunit.{SyncServerBuilder, Headers, send, StatusCode}
 
 object NowServer:
   def main(args: Array[String]): Unit =
-    AsyncServerBuilder
+    SyncServerBuilder
       .setRequestHandler(request =>
         request.send(
           statusCode = StatusCode.OK,
