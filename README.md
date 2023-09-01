@@ -1,6 +1,6 @@
 Scala Native NGINX
 ------------------
->Scala native nginx unit app built on Apple M1 using Scala 3.
+>Scala native nginx unit server built on Apple M1 using Scala 3.
 
 Install
 -------
@@ -8,18 +8,14 @@ Install
 1. brew install llvm
 2. brew install nginx/unit/unit
 
-NGINX Unit
-----------
->Docs:
-1. [SNunit](https://github.com/lolgab/snunit)
-2. [Nginx](http://unit.nginx.org)
->Usage:
+Start and Stop Nginx
+--------------------
 1. **start:** nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 2. **verify:** ps ax | grep unitd
 3. **stop:** Ctrl-C
 
-Deploy
-------
+Build and Deploy
+----------------
 >Deploy to/run on local nginx unit server:
 1. sbt clean compile nativeLink
 2. mv target/scala-3.3.1-RC6/scala-native-nginx-out target/scala-3.3.1-RC6/now
