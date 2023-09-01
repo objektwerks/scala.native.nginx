@@ -38,6 +38,13 @@ Curl Test
 Sttp Curl Test
 --------------
 1. sbt clean compile run
+```
+Multiple main classes detected. Select one to run:
+ [1] objektwerks.NowClient
+ [2] objektwerks.NowServer
+
+Enter number: 1
+```
 
 Resources
 ---------
