@@ -16,7 +16,7 @@ Start and Stop Nginx
 
 Build and Deploy
 ----------------
->Deploy to/run on local nginx unit server:
+>Build and deploy NowServer to/run on local nginx unit server:
 1. sbt clean compile nativeLink
 2. mv target/scala-3.3.1-RC6/scala-native-nginx-out target/scala-3.3.1-RC6/now
 3. sudo cp target/scala-3.3.1-RC6/now /usr/local/bin
