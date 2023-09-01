@@ -54,3 +54,4 @@ Resources
 2. [Scala Native Intro Video](https://www.youtube.com/watch?v=u2CnE-sRdBw)
 3. [NUnit](http://unit.nginx.org)
 4. [SNUnit](https://github.com/lolgab/snunit)
+5. [Sttp Native](https://softwaremill.com/scala-native-sttp-toolkit/)
