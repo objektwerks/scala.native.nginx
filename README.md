@@ -17,7 +17,7 @@ Start and Stop Nginx
 
 Build and Deploy NowServer
 --------------------------
->Build and deploy NowServer to/run on local nginx unit server:
+>Build and deploy to/run on local nginx unit server:
 1. sbt clean compile nativeLink
 ```
 Multiple main classes detected. Select one to run:
