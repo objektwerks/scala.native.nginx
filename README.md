@@ -29,11 +29,15 @@ Deploy
 6. curl http://localhost:7474/
 7. kill -9 pid ( rm control.sock nohup.out )
 
-Test
-----
+Curl Test
+---------
 1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 2. curl http://localhost:7474/
 3. kill -9 pid ( rm control.sock nohup.out )
+
+Sttp Curl Test
+--------------
+1. sbt clean compile run
 
 Resources
 ---------
