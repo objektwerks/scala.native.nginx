@@ -15,8 +15,8 @@ Start and Stop Nginx
 2. **verify:** ps ax | grep unitd
 3. **stop:** Ctrl-C
 
-Build and Deploy NowServer
---------------------------
+Build, Install and Deploy NowServer
+-----------------------------------
 >Build and deploy to/run on local nginx unit server:
 1. sbt clean compile nativeLink
 ```
@@ -31,8 +31,8 @@ Enter number: 2
 4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 5. ./deploy.sh  ( chmod 755 deploy.sh )
 
-Build and Deploy NowClient
---------------------------
+Build and Install NowClient
+---------------------------
 1. sbt clean compile nativeLink
 ```
 Multiple main classes detected. Select one to run:
