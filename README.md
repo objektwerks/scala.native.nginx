@@ -9,8 +9,8 @@ Install
 2. brew install bdw-gc
 3. brew install nginx/unit/unit
 
-Start and Stop Nginx
---------------------
+Start, Verify and Stop Nginx
+----------------------------
 1. **start:** nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 2. **verify:** ps ax | grep unitd
 3. **stop:** Ctrl-C
@@ -28,7 +28,7 @@ Enter number: 2
 ```
 2. mv target/scala-3.3.1-RC6/scala-native-nginx-out target/scala-3.3.1-RC6/now-server
 3. sudo cp target/scala-3.3.1-RC6/now-server /usr/local/bin
-4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
+4. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock & (optional nginx unit start)
 5. ./deploy.sh  ( chmod 755 deploy.sh )
 
 Build and Install NowClient
@@ -46,12 +46,12 @@ Enter number: 1
 
 NowClient Test
 --------------
-1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
+1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock & (optional nginx unit start)
 2. now-client
 
 Curl Test
 ---------
-1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
+1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock & (optional nginx unit start)
 2. curl http://localhost:7474/
 3. kill -9 pid ( rm control.sock nohup.out )
 
