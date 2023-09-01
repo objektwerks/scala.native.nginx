@@ -1,6 +1,6 @@
 Scala Native Nginx
 ------------------
->Scala native nginx unit server built on Apple M1 using Scala 3.
+>Scala native nginx unit server and client built on Apple M1 using Scala 3.
 
 Install
 -------
