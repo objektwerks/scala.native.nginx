@@ -9,15 +9,14 @@ Install
 2. brew install bdw-gc
 3. brew install nginx/unit/unit
 
-Start, Verify and Stop Nginx
-----------------------------
+Start, Verify and Stop Nginx Unit
+---------------------------------
 1. **start:** nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
 2. **verify:** ps ax | grep unitd
 3. **stop:** Ctrl-C
 
 Build, Install and Deploy NowServer
 -----------------------------------
->Build and deploy to/run on local nginx unit server:
 1. sbt clean compile nativeLink
 ```
 Multiple main classes detected. Select one to run:
