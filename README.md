@@ -44,6 +44,11 @@ Enter number: 1
 2. mv target/scala-3.3.1-RC6/scala-native-nginx-out target/scala-3.3.1-RC6/now-client
 3. sudo cp target/scala-3.3.1-RC6/now-client /usr/local/bin
 
+NowClient Test
+--------------
+1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
+2. now-client
+
 Curl Test
 ---------
 1. nohup unitd --no-daemon --log /dev/stdout --control unix:control.sock &
