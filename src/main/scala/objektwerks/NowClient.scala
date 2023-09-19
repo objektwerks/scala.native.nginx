@@ -1,7 +1,7 @@
 package objektwerks
 
-import sttp.client4.*
-import sttp.client4.curl.*
+import sttp.client4.{quickRequest, UriContext}
+import sttp.client4.curl.CurlBackend
 import sttp.client4.Response
 import sttp.model.Uri
 
