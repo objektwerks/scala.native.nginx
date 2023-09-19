@@ -41,8 +41,8 @@ Multiple main classes detected. Select one to run:
 
 Enter number: 1
 ```
-2. mv target/scala-3.3.1-RC6/scala-native-nginx-out target/scala-3.3.1-RC6/now-client
-3. sudo cp target/scala-3.3.1-RC6/now-client /usr/local/bin
+2. mv target/scala-3.3.1/scala-native-nginx-out target/scala-3.3.1/now-client
+3. sudo cp target/scala-3.3.1/now-client /usr/local/bin
 
 NowClient Test
 --------------
