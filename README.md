@@ -4,7 +4,7 @@ Scala Native Nginx
 
 Note
 ----
->Don't upgrade untial all dependencies are Scala Native 0.5.0 compliant!
+>Only ***select*** dependencies ***will*** work with the ***future*** Scala Native version of ***0.5.1***.
 
 Install
 -------
