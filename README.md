@@ -2,6 +2,10 @@ Scala Native Nginx
 ------------------
 >Scala native nginx unit server and client built on an **Apple M1** using Sttp and Scala 3.
 
+Note
+----
+>Don't upgrade untial all dependencies are Scala Native 0.5.0 compliant!
+
 Install
 -------
 >See http://www.scala-native.org/en/latest/user/setup.html for details.
