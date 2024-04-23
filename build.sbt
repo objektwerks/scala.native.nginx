@@ -10,7 +10,7 @@ libraryDependencies ++= {
   Seq(
     "com.github.lolgab" %%% "snunit" % "0.8.0",
     "com.softwaremill.sttp.client4" % "core_native0.4_3" % "4.0.0-M12",
-    "org.ekrich" %%% "sjavatime" % "1.3.0",
+    "org.ekrich" %%% "sjavatime" % "1.1.9",
     "org.scalatest" %%% "scalatest" % "3.2.18" % Test
   )
 }
