@@ -17,7 +17,6 @@ libraryDependencies ++= {
 scalacOptions ++= Seq(
   "-Wunused:all"
 )
-nativeLinkStubs := true
 nativeConfig ~= {
   _.withMode(Mode.releaseFast)
 }
