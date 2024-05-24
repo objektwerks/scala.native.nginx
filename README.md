@@ -4,7 +4,7 @@ Scala Native Nginx
 
 Note
 ----
->Only ***select*** dependencies ***will*** work with the ***future*** Scala Native version of ***0.5.1***.
+>This project is broken unitl ***com.github.lolgab" %%% "snunit*** supports Scala Native ***0.5.1***.
 
 Install
 -------
