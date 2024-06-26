@@ -11,7 +11,7 @@ libraryDependencies ++= {
     "com.github.lolgab" %%% "snunit" % "0.9.0",
     "com.softwaremill.sttp.client4" %%% "core" % "4.0.0-M16",
     "org.ekrich" %%% "sjavatime" % "1.1.9",
-    "org.scalatest" %%% "scalatest" % "3.2.18" % Test
+    "org.scalatest" %%% "scalatest" % "3.2.19" % Test
   )
 }
 scalacOptions ++= Seq(
