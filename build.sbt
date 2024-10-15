@@ -9,7 +9,7 @@ scalaVersion := "3.5.2-RC2"
 libraryDependencies ++= {
   Seq(
     "com.github.lolgab" %%% "snunit" % "0.10.1",
-    "com.softwaremill.sttp.client4" %%% "core" % "4.0.0-M17",
+    "com.softwaremill.sttp.client4" %%% "core" % "4.0.0-M18",
     "org.ekrich" %%% "sjavatime" % "1.3.0",
     "org.scalatest" %%% "scalatest" % "3.2.19" % Test
   )
