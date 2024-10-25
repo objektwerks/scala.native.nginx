@@ -15,7 +15,7 @@ libraryDependencies ++= {
   )
 }
 scalacOptions ++= Seq(
-  "-Wunused:all"
+  "-Wall"
 )
 nativeConfig ~= {
   _.withMode(Mode.releaseFast)
